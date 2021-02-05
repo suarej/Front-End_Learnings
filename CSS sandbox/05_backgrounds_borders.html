@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> backgrounds and borders</title>
+    <!-- Remember .png files can be transparrent and thus useful fro bordering whereas .jpg files will always be solid color-->
+    <style>
+        #Box-1{
+            background-color: cornflowerblue;
+            border: 3px solid red;
+            border-width: 3px;
+            border-color: red;
+        }
+
+        #Box-2 {
+            background: #333;
+            color: white;
+            border-top: yellowgreen;
+            border-radius: 10px;  /* for rounding corners(published after html 3)*/
+            border-top-left-radius: 10px;
+        }
+
+        /* we can import from internet (paste the path in the url) or use local files(use ./ for directing to path in url)*/
+        #Box-3 {
+            background-image: url("");
+            background-repeat: no-repeat;
+            background-size: cover; /* to have the full image irrespective of size*/
+             
+        }
+
+        $Box-4 {
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="Box-1">
+        <h3> Box one</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Iusto voluptatem officia reprehenderit possimus, quibusdam 
+            vitae cum nostrum omnis sit expedita fugiat odio tempore repudiandae 
+            nihil molestias, quos, eveniet dolorem. Eveniet!
+        </p>
+    </div>
+    <br>
+    <div id="Box-2">
+        <h3> Box Two</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Iusto voluptatem officia reprehenderit possimus, quibusdam 
+            vitae cum nostrum omnis sit expedita fugiat odio tempore repudiandae 
+            nihil molestias, quos, eveniet dolorem. Eveniet!
+        </p>
+    </div>
+    <div id="Box-3">
+        <h3> Box Three</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Iusto voluptatem officia reprehenderit possimus, quibusdam 
+            vitae cum nostrum omnis sit expedita fugiat odio tempore repudiandae 
+            nihil molestias, quos, eveniet dolorem. Eveniet!
+        </p>
+    </div>
+    <div id="Box-4">
+        <h3> Box Four</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Iusto voluptatem officia reprehenderit possimus, quibusdam 
+            vitae cum nostrum omnis sit expedita fugiat odio tempore repudiandae 
+            nihil molestias, quos, eveniet dolorem. Eveniet!
+        </p>
+    </div>
+</body>
+</html>
